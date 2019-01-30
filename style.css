@@ -62,11 +62,6 @@ table {
   text-align: center;
 }
 
-.container {
-  width: 500px;
-  margin: 30px auto;
-}
-
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -84,6 +79,11 @@ table {
   .container {
     width: 300px;
   }
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
 }
 
 .card {

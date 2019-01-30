@@ -1,7 +1,7 @@
 /* colors + fonts */
 
 body {
-  background-image: linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(252,132,132,1) 0%, rgba(183,62,87,1) 90% );
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color:  #7d7d7d;

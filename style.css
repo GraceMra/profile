@@ -1,7 +1,7 @@
 /* colors + fonts */
 
 body {
-  background-image: url('images/background.jpg');
+  background-image: linear-gradient( 110.2deg,  rgba(111,71,133,1) 3.6%, rgba(232,129,166,1) 50.3%, rgba(237,237,183,1) 97.4% );
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color:  #7d7d7d;
@@ -119,7 +119,7 @@ table {
   padding-left: 0px;
 }
 
-.list-inline > li {
+.list-inline li {
   display: inline-block;
   padding: 0px 20px;
 }
@@ -150,4 +150,15 @@ table {
   color: white;
   box-shadow: 0 2px 5px 0 rgba(200,0,0,0.2);
 }
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 300px;
 }
